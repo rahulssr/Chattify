@@ -21,12 +21,16 @@
 
 ---
 
-## ✨ Features
-✔️ **Real-time messaging** with WebSockets ⚡  
-✔️ **Secure authentication** using JWT 🔐  
-✔️ **Modern & responsive UI** with TailwindCSS 🎨  
-✔️ **Emoji & file sharing support** 📁🎉  
-✔️ **Deployed on Vercel** 🚀  
+## 🎨 Features at a Glance
+```mermaid
+graph TD;
+  A[Real-time Messaging] -->|Socket.io| B(Instant Updates);
+  A -->|WebSockets| C(Low Latency);
+  D[User Authentication] -->|JWT| E(Secure Login);
+  F[Responsive UI] -->|TailwindCSS| G(Mobile Friendly);
+  H[File Sharing] -->|Drag & Drop| I(Upload & Download);
+  J[Emoji Support] -->|Unicode & Twemoji| K(Express Emotions);
+```
 
 ---
 
@@ -92,6 +96,18 @@ const sendMessage = (message) => {
 socket.on("message", (msg) => {
   console.log(msg);
 });
+```
+
+---
+
+## 📊 Usage Statistics
+```mermaid
+pie
+    title User Activity
+    "Active Users" : 70
+    "Messages Sent" : 150
+    "Files Shared" : 30
+    "Reactions" : 50
 ```
 
 ---
