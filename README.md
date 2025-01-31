@@ -18,6 +18,34 @@
 💾 **File sharing** – Upload and send images, PDFs, and more  
 🎨 **Sleek UI** – Built with Tailwind CSS for a modern feel  
 😃 **Emoji support** – Express yourself better  
+📊 **User Analytics Dashboard** – Visual insights on user activity  
+🎙️ **Voice & Video Calling** – High-quality communication  
+🌙 **Dark Mode Toggle** – User-friendly interface customization  
+
+---
+
+## 📊 Live Statistics & Analytics
+
+### User Engagement Chart
+
+![User Engagement Chart](https://your-chart-url.com)
+
+```javascript
+// Sample code to generate user activity chart using Chart.js
+const ctx = document.getElementById('myChart');
+const myChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+    datasets: [{
+      label: 'Messages Sent',
+      data: [120, 190, 300, 500, 700],
+      borderColor: 'rgba(75, 192, 192, 1)',
+      borderWidth: 2
+    }]
+  }
+});
+```
 
 ---
 
@@ -29,6 +57,7 @@
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io)
 
 ---
 
@@ -43,6 +72,7 @@
 
 ![Chat UI](https://your-image-url.com)
 ![File Sharing](https://your-image-url.com)
+![User Dashboard](https://your-image-url.com)
 
 ---
 
@@ -80,6 +110,8 @@ socket.on("sendMessage", (message) => {
 - ✅ **Voice messages**
 - ✅ **Group chat**
 - ✅ **Read receipts**
+- ✅ **AI-powered smart replies**
+- ✅ **Custom themes**
 
 ---
 
@@ -93,9 +125,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 💼 **Connect with me:** [LinkedIn](https://linkedin.com/in/yourname) | [Portfolio](https://yourportfolio.com)  
 📧 **Email:** your.email@example.com
-
-
-
 
 
 
