@@ -64,12 +64,26 @@ cd chattify
 npm install
 ```
 
-### 🚀 Run the Project
-```bash
-# Start the server
-npm run server
+### Setup .env file
+```js
+MONGODB_URI=...
+PORT=5001
+JWT_SECRET=...
 
-# Start the frontend
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+
+NODE_ENV=development
+```
+
+### Build the app
+```shell
+npm run build
+```
+
+### Start the app
+```shell
 npm start
 ```
 
@@ -127,46 +141,3 @@ pie
 ---
 
 ⭐ **Star this repo if you like it!** ⭐
-
-
-
-
-
-
-
-# ✨ Full Stack Realtime Chat App ✨
-
-Highlights:
-
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
