@@ -134,9 +134,7 @@ pie
 
 ---
 
-## 📩 Contact & Support
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-💬 LinkedIn: [your-profile](your_profile_link_here)  
+
 
 ---
 
