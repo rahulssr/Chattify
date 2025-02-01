@@ -1,12 +1,5 @@
-<p align="center">
-  <img src="your_logo_link_here" width="200px">
-</p>
 
 # 🚀 Chattify - Real-time Chat App
-
-<p align="center">
-  <img src="your_gif_here" width="700px">
-</p>
 
 <p align="center">
   <a href="your_demo_link_here"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel"></a>
@@ -35,9 +28,7 @@ graph TD;
 ---
 
 ## 🎥 Demo Preview
-<p align="center">
-  <img src="your_demo_gif_here" width="700px">
-</p>
+https://chattify-8jyl.onrender.com/
 
 ---
 
@@ -90,10 +81,7 @@ npm start
 ---
 
 ## 🖥️ UI Screenshots
-<p align="center">
-  <img src="your_screenshot_link_1" width="45%">
-  <img src="your_screenshot_link_2" width="45%">
-</p>
+
 
 ---
 
